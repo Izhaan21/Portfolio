@@ -102,7 +102,7 @@ export default function AboutSection() {
                 <div className="term-out">
                   &nbsp;&nbsp;<span className="term-key">"stack"</span>: [
                 </div>
-                {['Flutter', 'Android / Kotlin', 'Firebase', 'Gemini AI', 'REST APIs'].map(
+                {['Flutter', 'Android / Kotlin', 'Firebase', 'Personalized AI', 'REST APIs'].map(
                   (s) => (
                     <div className="term-out" key={s}>
                       &nbsp;&nbsp;&nbsp;&nbsp;<span className="term-val">"{s}"</span>,
