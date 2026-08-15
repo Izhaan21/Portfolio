@@ -12,13 +12,10 @@ export default function AboutSection() {
 
             <div style={{ marginTop: 28 }}>
               <p className="about-desc">
-                I'm <strong style={{ color: 'var(--text)' }}>Izhaan Hasan Saifi</strong>, a Mobile
-                Developer focused on Flutter and Android. I build apps that are fast, functional, and
-                feel great to use — from architecture to the last animation.
+                I'm <strong style={{ color: 'var(--text)' }}>Izhaan Hasan Saifi</strong>, a Mobile Developer who loves building complete, end-to-end applications. Starting my journey with <strong style={{ color: 'var(--text)' }}>Flutter</strong> and <strong style={{ color: 'var(--text)' }}>Android</strong>, I've recently expanded into the backend to engineer my own secure RESTful APIs using <strong style={{ color: 'var(--text)' }}>.NET (C#)</strong> and MySQL.
               </p>
               <p className="about-desc" style={{ marginTop: 12 }}>
-                I've worked with Firebase, AI APIs, REST services, and custom design systems. My goal
-                is always to ship apps that are production-quality, maintainable, and user-first.
+                From integrating Personalized AI in mobile apps to designing JWT-secured backend systems, I enjoy tackling challenges across the entire tech stack. My goal is always to ship production-quality software that looks great and runs seamlessly.
               </p>
               <p className="about-desc" style={{ marginTop: 12 }}>
                 Alongside mobile development, I'm actively strengthening my{' '}
@@ -102,7 +99,7 @@ export default function AboutSection() {
                 <div className="term-out">
                   &nbsp;&nbsp;<span className="term-key">"stack"</span>: [
                 </div>
-                {['Flutter', 'Android / Kotlin', 'Firebase', 'Personalized AI', 'REST APIs'].map(
+                {['Flutter', 'Android / Kotlin', 'Firebase', 'Personalized AI', 'REST APIs', '.NET / C#', 'MySQL'].map(
                   (s) => (
                     <div className="term-out" key={s}>
                       &nbsp;&nbsp;&nbsp;&nbsp;<span className="term-val">"{s}"</span>,
