@@ -113,8 +113,7 @@ export default function HeroSection() {
         {/* Bottom bar */}
         <div className="hero-bottom-bar hero-bottom-bar-custom">
           <p className="hero-desc hero-desc-custom">
-            <strong>// izhaan.dev</strong> — Building production-quality Flutter &amp; Android
-            apps with Firebase, AI integration, and clean architecture.
+            <strong>// izhaan.dev</strong> — Mobile (Flutter/Kotlin) | Backend (.NET &amp; MySQL) | Security (JWT) &amp; AI Integration
           </p>
           <div className="hero-social-block">
             <a href="https://github.com/Izhaan21" target="_blank" rel="noopener noreferrer" className="hero-social-link" title="GitHub">
