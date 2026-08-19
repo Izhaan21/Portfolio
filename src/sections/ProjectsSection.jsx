@@ -11,6 +11,7 @@ const projects = [
     tech: ['Kotlin', 'Jetpack Compose', 'Firebase', 'Personalized AI'],
     github: 'https://github.com/Izhaan21/Al_Aalim',
     demo: 'https://play.google.com/store/apps/details?id=com.alaalim.app',
+    screenshot: '/al-aalim-screen.jpg',
     gradient: 'linear-gradient(160deg, #0f1923 0%, #1a2744 60%, #0d1b3e 100%)',
     screenBg: 'linear-gradient(180deg, #1a2744 0%, #0f1923 100%)',
     accentColor: '#4f8ef7',
@@ -26,6 +27,7 @@ const projects = [
     tech: ['Flutter', '.NET (C#)', 'MySQL', 'JWT', 'Render'],
     github: 'https://github.com/Izhaan21/ScanSpend',
     demo: null,
+    screenshot: '/scanspend-screen.jpg',
     gradient: 'linear-gradient(160deg, #161e38 0%, #2b5876 60%, #4e4376 100%)',
     screenBg: 'linear-gradient(180deg, #4e4376 0%, #2b5876 100%)',
     accentColor: '#8ca1cc',
@@ -58,13 +60,21 @@ function PhoneMockup({ project }) {
         {/* Dynamic island */}
         <div className="phone-island" />
         {/* Screen */}
-        <div className="phone-screen" style={{ background: project.screenBg }}>
-          <div className="phone-screen-content">
-            <span style={{ fontSize: '3.5rem' }}>{project.emoji}</span>
-            <div style={{ marginTop: 12, fontSize: '0.65rem', fontWeight: 700, color: 'rgba(255,255,255,0.5)', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-              {project.subtitle}
+        <div className="phone-screen" style={{ background: project.screenBg, padding: 0, overflow: 'hidden' }}>
+          {project.screenshot ? (
+            <img
+              src={project.screenshot}
+              alt={project.title}
+              style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top', display: 'block' }}
+            />
+          ) : (
+            <div className="phone-screen-content">
+              <span style={{ fontSize: '3.5rem' }}>{project.emoji}</span>
+              <div style={{ marginTop: 12, fontSize: '0.65rem', fontWeight: 700, color: 'rgba(255,255,255,0.5)', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
+                {project.subtitle}
+              </div>
             </div>
-          </div>
+          )}
         </div>
         {/* Home indicator */}
         <div className="phone-indicator" />
