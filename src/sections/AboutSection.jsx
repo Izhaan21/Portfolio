@@ -55,14 +55,6 @@ export default function AboutSection() {
                   transition: 'transform 0.3s ease, background 0.3s ease',
                   borderRadius: 2,
                 }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-2px)';
-                  e.currentTarget.style.background = 'var(--accent-dark)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.background = 'var(--accent)';
-                }}
               >
                 ↓ resume.pdf
               </a>

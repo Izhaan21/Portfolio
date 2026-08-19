@@ -92,7 +92,7 @@ ul { list-style: none; }
   border: 1px solid var(--border);
   transition: border-color var(--transition);
 }
-.card-simple:hover { border-color: var(--border-light); }
+
 
 /* ===== TICKER TAPE ===== */
 .ticker-wrap {
@@ -479,9 +479,7 @@ ul { list-style: none; }
   line-height: 1.05;
   transition: text-shadow 0.3s ease;
 }
-.section-heading:hover {
-  color: var(--accent);
-}
+
 .section-heading .h-accent { color: var(--accent); }
 
 /* ===== CODE WINDOW COMPONENT ===== */
@@ -1033,7 +1031,7 @@ ul { list-style: none; }
   padding: 28px 24px;
   transition: background var(--transition);
 }
-.about-stat:hover { background: var(--bg-card2); }
+
 .about-stat-num {
   font-family: var(--font-mono);
   font-size: 2.2rem;

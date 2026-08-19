@@ -79,12 +79,6 @@ export default function HeroSection() {
                 color: '#0d0f0f',
                 border: '1px solid var(--accent)'
               }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.background = 'var(--accent-dark)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.background = 'var(--accent)';
-              }}
             >
               <span>Download Resume</span>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
