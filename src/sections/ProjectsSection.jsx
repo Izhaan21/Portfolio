@@ -122,7 +122,7 @@ export default function ProjectsSection() {
                     className="btn-outline-hero"
                     style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}
                   >
-                    <ExternalIcon /> Live Demo
+                    <ExternalIcon /> {p.demo.includes('play.google.com') ? 'Play Store' : 'Live Demo'}
                   </a>
                 ) : (
                   <span className="demo-coming" title="Coming soon">
