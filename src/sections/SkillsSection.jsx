@@ -56,6 +56,46 @@ const techStack = [
     logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
   },
   {
+    name: 'C#',
+    category: 'backend',
+    color: '#178600',
+    bg: 'rgba(23,134,0,0.08)',
+    border: 'rgba(23,134,0,0.2)',
+    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',
+  },
+  {
+    name: '.NET Core',
+    category: 'backend',
+    color: '#512BD4',
+    bg: 'rgba(81,43,212,0.08)',
+    border: 'rgba(81,43,212,0.2)',
+    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg',
+  },
+  {
+    name: 'MySQL',
+    category: 'backend',
+    color: '#4479A1',
+    bg: 'rgba(68,121,161,0.08)',
+    border: 'rgba(68,121,161,0.2)',
+    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+  },
+  {
+    name: 'JWT',
+    category: 'backend',
+    color: '#fb015b',
+    bg: 'rgba(251,1,91,0.08)',
+    border: 'rgba(251,1,91,0.2)',
+    logo: 'https://jwt.io/img/pic_logo.svg',
+  },
+  {
+    name: 'Render',
+    category: 'backend',
+    color: '#46E3B7',
+    bg: 'rgba(70,227,183,0.08)',
+    border: 'rgba(70,227,183,0.2)',
+    logo: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-render-co-cloud-application-hosting-for-developers-logo-color-tal-revivo.png',
+  },
+  {
     name: 'Git',
     category: 'tools',
     color: '#F05032',
@@ -70,6 +110,22 @@ const techStack = [
     bg: 'rgba(255,255,255,0.05)',
     border: 'rgba(255,255,255,0.15)',
     logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+  },
+  {
+    name: 'Postman',
+    category: 'tools',
+    color: '#FF6C37',
+    bg: 'rgba(255,108,55,0.08)',
+    border: 'rgba(255,108,55,0.2)',
+    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg',
+  },
+  {
+    name: 'REST APIs',
+    category: 'tools',
+    color: '#009688',
+    bg: 'rgba(0,150,136,0.08)',
+    border: 'rgba(0,150,136,0.2)',
+    logo: 'https://img.icons8.com/color/48/api.png',
   },
   {
     name: 'Figma',
@@ -139,7 +195,7 @@ export default function SkillsSection() {
           <span className="section-eyebrow">My Expertise</span>
           <h2 className="section-heading">Tech Stack</h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem', marginTop: 12, fontFamily: 'var(--font-mono)', maxWidth: 500 }}>
-            Technologies I use to build fast, polished mobile experiences.
+            Technologies I use to build fast, polished mobile applications and secure backend APIs.
           </p>
         </div>
 
