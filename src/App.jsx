@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import HeroSection from './sections/HeroSection';
 import AboutSection from './sections/AboutSection';
 import SkillsSection from './sections/SkillsSection';
-import ServicesSection from './sections/ServicesSection';
 import ProjectsSection from './sections/ProjectsSection';
 import ContactSection from './sections/ContactSection';
 
@@ -17,7 +16,6 @@ export default function App() {
         <HeroSection />
         <AboutSection />
         <SkillsSection />
-        <ServicesSection />
         <ProjectsSection />
         <ContactSection />
       </main>
