@@ -40,20 +40,9 @@ export default function HeroSection() {
         <div className="hero-top">
           <div className="hero-intro-box">
 
-            {/* Available badge */}
-            <div className="hero-badge">
-              <span className="hero-badge-dot" />
-              Available for new projects
-            </div>
-
-            {/* // greeting comment */}
-            <h3 className="hero-hello">Hello, World!</h3>
-
             {/* Name */}
-            <h1 className="hero-name-alt">
-              <span className="name-green">Izhaan</span>{' '}
-              <span style={{ color: 'var(--text)' }}>Hasan</span>{' '}
-              <span className="name-blue">Saifi</span>
+            <h1 className="hero-name-alt" style={{ color: '#ffffff' }}>
+              Izhaan Hasan Saifi
             </h1>
 
             {/* Typewriter — dynamic label per role */}
