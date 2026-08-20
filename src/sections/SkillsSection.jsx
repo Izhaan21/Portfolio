@@ -93,7 +93,7 @@ const techStack = [
     color: '#46E3B7',
     bg: 'rgba(70,227,183,0.08)',
     border: 'rgba(70,227,183,0.2)',
-    logo: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-render-co-cloud-application-hosting-for-developers-logo-color-tal-revivo.png',
+    logo: 'https://cdn.simpleicons.org/render/46E3B7',
   },
   {
     name: 'Git',
