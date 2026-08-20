@@ -744,7 +744,7 @@ ul { list-style: none; }
   height: 390px;
   background: var(--phone-color, #1a1e1c);
   border-radius: 40px;
-  border: 2px solid rgba(0, 229, 160, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -966,7 +966,7 @@ ul { list-style: none; }
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  background: var(--accent);
   transform: scaleX(0);
   transition: transform 0.4s ease;
 }

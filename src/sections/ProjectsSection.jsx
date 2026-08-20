@@ -97,7 +97,7 @@ export default function ProjectsSection() {
 
         <div className="project-featured">
           {/* Left: Phone mockup */}
-          <div className="project-featured-visual" style={{ background: p.gradient, padding: '40px 0 0' }}>
+          <div className="project-featured-visual" style={{ background: 'var(--bg-term)', padding: '40px 0 0' }}>
             <PhoneMockup project={p} />
           </div>
 
