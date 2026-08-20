@@ -65,7 +65,7 @@ function PhoneMockup({ project }) {
             <img
               src={project.screenshot}
               alt={project.title}
-              style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top center', display: 'block', flexShrink: 0 }}
+              style={{ width: '100%', height: '100%', objectFit: 'fill', display: 'block', flexShrink: 0 }}
             />
           ) : (
             <div className="phone-screen-content">
